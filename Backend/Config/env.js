@@ -11,5 +11,5 @@ const getEnv = (variable, defaultValue) => {
 
 module.exports = {
     port                : getEnv('PORT', 3000),
-    dbUrl               : getEnv('DB_URL', 'mongodb+srv://nestarobertnrn99se:Bobysawer23se!@cluster0.zt1epey.mongodb.net/SoundFocus'),
+    dbUrl               : getEnv('DB_URL', ''),
 };
